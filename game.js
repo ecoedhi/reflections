@@ -717,6 +717,8 @@ Asteroid = function () {
 Asteroid.prototype = new Sprite();
 
 Coin = function () {
+  this.color = 'black'
+  this.solid = 'true'
   this.init("coin",
             [-5,  0,
               0,  5,
